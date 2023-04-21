@@ -77,7 +77,8 @@ const About = () => {
             climbing, taking photo's, or traveling. Unfortunately all of these
             things cost money, if you're looking for an intern or junior dev, I
             hope this site can show you what I can do. I'm currently getting
-            used to React and Next.js, but I'm open to any challenge.
+            used to React and Next.js, but I'm open to any challenge.<br></br>
+            <br></br>
           </Text>
         </Modal.Body>
 

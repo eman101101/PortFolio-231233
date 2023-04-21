@@ -1,14 +1,19 @@
 import { Button, Modal, Text, useModal } from '@nextui-org/react';
 import React, { useState } from 'react';
 
-import GuestbookEntry from '../../components/GuestbookEntry';
-import GuestbookForm from '../../components/GuestbookForm';
+import GuestbookEntry from '@/components/Guestbookentry';
+import GuestbookForm from '@/components/Guestbookform';
 
 const Guestbook = () => {
   const { setVisible, bindings } = useModal();
   const [entries, setEntries] = useState([]);
 
-  const handleAddEntry = (entry) => {
+  interface Entry {
+    name: string;
+    message: string;
+  }
+
+  const handleAddEntry = (entry: Entry) => {
     setEntries([entry, ...entries]);
   };
 

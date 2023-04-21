@@ -6,7 +6,7 @@ import GuestbookForm from '@/components/Guestbookform';
 
 const Guestbook = () => {
   const { setVisible, bindings } = useModal();
-  const [entries, setEntries] = useState([]);
+  const [entries, setEntries] = useState<Entry[]>([]);
 
   interface Entry {
     name: string;

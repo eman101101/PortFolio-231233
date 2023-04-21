@@ -80,7 +80,8 @@ const MyModal = () => {
             <br></br>I wanted to create a website that made fun of the whole
             "portfolio" thing, and super minimalistic websites that are boring
             to look at. The project was a lot of fun to build, I learned a lot
-            about how Next.js works as well as different javascript animations.
+            about how Next.js works as well as different javascript animation
+            library.
             <Image
               width={1200}
               height={800}

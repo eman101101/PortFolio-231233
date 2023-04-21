@@ -35,7 +35,7 @@ const FakeErrorScreen = () => {
       <div className={styles.footer}>
         <p>
           <br></br>This screen appears when your portfolio is boring. To fix the
-          error, please try to your website interesting.
+          error, please try to make your website interesting.
         </p>
       </div>
     </div>

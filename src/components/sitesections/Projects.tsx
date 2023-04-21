@@ -82,14 +82,13 @@ const MyModal = () => {
             to look at. The project was a lot of fun to build, I learned a lot
             about how Next.js works as well as different javascript animations.
           </Text>
-          <div css={{ overflowX: 'auto', maxWidth: '100%' }}>
-            <Image
-              width={1200}
-              height={800}
-              src='/images/finalportfolio.png'
-              alt='Default Image'
-            />
-          </div>
+          <Image
+            width={1200}
+            height={800}
+            src='/images/finalportfolio.png'
+            alt='Default Image'
+            css={{ overflowX: 'auto', maxWidth: '100%' }}
+          />
           <Text
             id='modal-description'
             css={{
@@ -117,14 +116,13 @@ const MyModal = () => {
             projects are in the Github, Check them out if you want to learn some
             digital skills!
           </Text>
-          <div css={{ overflowX: 'auto', maxWidth: '100%' }}>
-            <Image
-              width={1200}
-              height={800}
-              src='/images/withyouwithme.png'
-              alt='Default Image'
-            />
-          </div>
+          <Image
+            width={1200}
+            height={800}
+            src='/images/withyouwithme.png'
+            alt='Default Image'
+            css={{ overflowX: 'auto', maxWidth: '100%' }}
+          />
         </Modal.Body>
         <Modal.Footer>
           <Button

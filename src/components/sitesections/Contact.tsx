@@ -86,14 +86,13 @@ const Contact = () => {
             <br></br>
             <br></br> I'm extremely broke I'll do whatever you want
           </Text>
-          <div css={{ overflowX: 'auto', maxWidth: '100%' }}>
-            <Image
-              width={1000}
-              height={700}
-              src='/images/meme1.png'
-              alt='Default Image'
-            />{' '}
-          </div>
+          <Image
+            width={1000}
+            height={700}
+            src='/images/meme1.png'
+            alt='Default Image'
+            css={{ overflowX: 'auto', maxWidth: '100%' }}
+          />
         </Modal.Body>
         <Modal.Footer>
           <Button

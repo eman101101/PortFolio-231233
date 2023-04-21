@@ -56,14 +56,13 @@ const About = () => {
           </Text>
         </Modal.Header>
         <Modal.Body>
-          <div css={{ overflowX: 'auto', maxWidth: '100%' }}>
-            <Image
-              width={1000}
-              height={700}
-              src='/images/evan.png'
-              alt='Default Image'
-            />{' '}
-          </div>
+          <Image
+            width={1000}
+            height={700}
+            src='/images/evan.png'
+            alt='Default Image'
+            css={{ overflowX: 'auto', maxWidth: '100%' }}
+          />
           <Text
             id='modal-description'
             css={{

@@ -78,14 +78,13 @@ const Music = () => {
             where I have a couple of playlist. Here are some of the albums I've
             been listening to lately:
           </Text>
-          <div css={{ overflowX: 'auto', maxWidth: '100%' }}>
-            <Image
-              width={1000}
-              height={700}
-              src='/images/albums.png'
-              alt='Default Image'
-            />{' '}
-          </div>
+          <Image
+            width={1000}
+            height={700}
+            src='/images/albums.png'
+            alt='Default Image'
+            css={{ overflowX: 'auto', maxWidth: '100%' }}
+          />
         </Modal.Body>
         <Modal.Footer>
           <Button

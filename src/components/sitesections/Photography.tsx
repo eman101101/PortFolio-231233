@@ -79,32 +79,34 @@ const MyModal = () => {
             </Link>
           </Text>
 
-          <div css={{ overflowX: 'auto', maxWidth: '100%' }}>
-            <Image
-              width={1200}
-              height={800}
-              src='/images/photo1.jpg'
-              alt='Default Image'
-            />
-            <Image
-              width={1200}
-              height={800}
-              src='/images/photo2.jpg'
-              alt='Default Image'
-            />
-            <Image
-              width={1200}
-              height={800}
-              src='/images/photo3.jpg'
-              alt='Default Image'
-            />
-            <Image
-              width={1200}
-              height={800}
-              src='/images/photo4.jpg'
-              alt='Default Image'
-            />
-          </div>
+          <Image
+            width={1200}
+            height={800}
+            src='/images/photo1.jpg'
+            alt='Default Image'
+            css={{ overflowX: 'auto', maxWidth: '100%' }}
+          />
+          <Image
+            width={1200}
+            height={800}
+            src='/images/photo2.jpg'
+            alt='Default Image'
+            css={{ overflowX: 'auto', maxWidth: '100%' }}
+          />
+          <Image
+            width={1200}
+            height={800}
+            src='/images/photo3.jpg'
+            alt='Default Image'
+            css={{ overflowX: 'auto', maxWidth: '100%' }}
+          />
+          <Image
+            width={1200}
+            height={800}
+            src='/images/photo4.jpg'
+            alt='Default Image'
+            css={{ overflowX: 'auto', maxWidth: '100%' }}
+          />
         </Modal.Body>
 
         <Modal.Footer>

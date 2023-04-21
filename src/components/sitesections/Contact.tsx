@@ -75,24 +75,23 @@ const Contact = () => {
             >
               Linkden
             </Link>{' '}
-            profile or my email me at{' '}
+            profile or my email me{' '}
             <Link
               href='mailto:evankoumarelas@hotmail.com'
               target='_blank'
               css={{ lineHeight: '1' }}
             >
-              evankoumarelas@hotmail.com
+              here
             </Link>
             <br></br>
             <br></br> I'm extremely broke I'll do whatever you want
+            <Image
+              width={1000}
+              height={700}
+              src='/images/meme1.png'
+              alt='Default Image'
+            />
           </Text>
-          <Image
-            width={1000}
-            height={700}
-            src='/images/meme1.png'
-            alt='Default Image'
-            css={{ overflowX: 'auto', maxWidth: '100%' }}
-          />
         </Modal.Body>
         <Modal.Footer>
           <Button

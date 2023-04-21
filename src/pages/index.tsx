@@ -39,7 +39,7 @@ export default function Home() {
     anime({
       targets: '.black-fade',
       opacity: [0, 1],
-      duration: 1000,
+      duration: 1,
       delay: 25000,
     });
 
@@ -69,6 +69,7 @@ export default function Home() {
         opacity: [0, 1],
         backgroundColor: ['#000000', '#ffffff'],
       });
+      document.body.style.overflow = 'hidden'; // Hide the scrollbar after black-fade
     }, 25000);
   }, []);
 
@@ -113,7 +114,7 @@ export default function Home() {
             </h1>
             <br></br>
             <h1
-              className='name-fade glitch whitespace-nowrap text-center text-7xl text-white md:text-7xl lg:text-8xl xl:text-9xl'
+              className='name-fade glitch whitespace-nowrap text-center text-6xl text-white md:text-6xl lg:text-8xl xl:text-9xl'
               style={{
                 fontFamily: 'Cynatar',
                 textShadow:
@@ -183,7 +184,9 @@ export default function Home() {
                   that may seem repetitive and mundane. The process of debugging
                   code can also be frustrating and time-consuming, leading to a
                   feeling of being stuck in a never-ending loop of fixing
-                  errors. However, I might be able to do something idk
+                  errors. However, I might be able to do something idk<br></br>
+                  <br></br>
+                  <br></br>
                 </p>
               </div>
             </div>

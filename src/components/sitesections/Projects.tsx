@@ -81,14 +81,14 @@ const MyModal = () => {
             "portfolio" thing, and super minimalistic websites that are boring
             to look at. The project was a lot of fun to build, I learned a lot
             about how Next.js works as well as different javascript animations.
+            <Image
+              width={1200}
+              height={800}
+              src='/images/finalportfolio.png'
+              alt='Default Image'
+            />
           </Text>
-          <Image
-            width={1200}
-            height={800}
-            src='/images/finalportfolio.png'
-            alt='Default Image'
-            css={{ overflowX: 'auto', maxWidth: '100%' }}
-          />
+
           <Text
             id='modal-description'
             css={{
@@ -115,14 +115,13 @@ const MyModal = () => {
             and Python project as well as a mock e-commerence site. Links to my
             projects are in the Github, Check them out if you want to learn some
             digital skills!
+            <Image
+              width={1200}
+              height={800}
+              src='/images/withyouwithme.png'
+              alt='Default Image'
+            />
           </Text>
-          <Image
-            width={1200}
-            height={800}
-            src='/images/withyouwithme.png'
-            alt='Default Image'
-            css={{ overflowX: 'auto', maxWidth: '100%' }}
-          />
         </Modal.Body>
         <Modal.Footer>
           <Button

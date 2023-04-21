@@ -77,36 +77,31 @@ const MyModal = () => {
             >
               Check out my Flickr!
             </Link>
+            <Image
+              width={1200}
+              height={800}
+              src='/images/photo1.jpg'
+              alt='Default Image'
+            />
+            <Image
+              width={1200}
+              height={800}
+              src='/images/photo2.jpg'
+              alt='Default Image'
+            />
+            <Image
+              width={1200}
+              height={800}
+              src='/images/photo3.jpg'
+              alt='Default Image'
+            />
+            <Image
+              width={1200}
+              height={800}
+              src='/images/photo4.jpg'
+              alt='Default Image'
+            />
           </Text>
-
-          <Image
-            width={1200}
-            height={800}
-            src='/images/photo1.jpg'
-            alt='Default Image'
-            css={{ overflowX: 'auto', maxWidth: '100%' }}
-          />
-          <Image
-            width={1200}
-            height={800}
-            src='/images/photo2.jpg'
-            alt='Default Image'
-            css={{ overflowX: 'auto', maxWidth: '100%' }}
-          />
-          <Image
-            width={1200}
-            height={800}
-            src='/images/photo3.jpg'
-            alt='Default Image'
-            css={{ overflowX: 'auto', maxWidth: '100%' }}
-          />
-          <Image
-            width={1200}
-            height={800}
-            src='/images/photo4.jpg'
-            alt='Default Image'
-            css={{ overflowX: 'auto', maxWidth: '100%' }}
-          />
         </Modal.Body>
 
         <Modal.Footer>

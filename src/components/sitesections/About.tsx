@@ -56,13 +56,6 @@ const About = () => {
           </Text>
         </Modal.Header>
         <Modal.Body>
-          <Image
-            width={1000}
-            height={700}
-            src='/images/evan.png'
-            alt='Default Image'
-            css={{ overflowX: 'auto', maxWidth: '100%' }}
-          />
           <Text
             id='modal-description'
             css={{
@@ -73,13 +66,18 @@ const About = () => {
               lineHeight: '1',
             }}
           >
+            <Image
+              width={1000}
+              height={700}
+              src='/images/evan.png'
+              alt='Default Image'
+            />
             Terminally online 25 year old looking to get into webdev, trying to
             make something unique. When I'm not staring at a screen I'm rock
             climbing, taking photo's, or traveling. Unfortunately all of these
-            things cost money costs money, if you're looking for an intern or
-            junior dev, I hope this site can show you what I can do. I'm
-            currently getting used to React and Next.js, but I'm open to any
-            challenge.
+            things cost money, if you're looking for an intern or junior dev, I
+            hope this site can show you what I can do. I'm currently getting
+            used to React and Next.js, but I'm open to any challenge.
           </Text>
         </Modal.Body>
 

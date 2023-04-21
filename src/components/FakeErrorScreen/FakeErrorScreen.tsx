@@ -20,9 +20,8 @@ const FakeErrorScreen = () => {
         </p>
         <br></br>
         <p>
-          Caused by:<br></br>
-          <br></br> Our overworked millennial is combing through thousands of
-          lines of code to figure out what's wrong, but it's not really working.
+          Our overworked millennial is looking through thousands of lines of
+          code to figure out what's wrong, but it's not really working.
           <br></br>
           <br></br> This webpage is fighting for its life , it's probably
           overloaded from all the refactoring I haven't done.<br></br>
@@ -35,8 +34,8 @@ const FakeErrorScreen = () => {
       </div>
       <div className={styles.footer}>
         <p>
-          <br></br>This is a fake error screen, dont worry. To fix the error,
-          please wait 5 seconds and see what happens.
+          <br></br>This screen appears when your portfolio is boring. To fix the
+          error, please try to your website interesting.
         </p>
       </div>
     </div>

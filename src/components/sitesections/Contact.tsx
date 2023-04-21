@@ -75,7 +75,7 @@ const Contact = () => {
             >
               Linkden
             </Link>{' '}
-            profile or my email me{' '}
+            profile or my email{' '}
             <Link
               href='mailto:evankoumarelas@hotmail.com'
               target='_blank'

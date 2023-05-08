@@ -15,10 +15,73 @@ import Projects from '@/components/sitesections/Projects';
 export default function Home() {
   const [showFakeErrorScreen, setShowFakeErrorScreen] = useState(true);
 
+  type GlitchControl = {
+    startGlitch: () => void;
+    stopGlitch: () => void;
+  } | null;
+
+  const GlitchComponent: React.FC = () => {
+    const [glitchControl, setGlitchControl] = useState<GlitchControl>(null);
+
+    useEffect(() => {
+      const glitchTimeout = setTimeout(() => {
+        const { startGlitch, stopGlitch } = PowerGlitch.glitch('.glitch', {
+          playMode: 'manual',
+          timing: {
+            duration: 600,
+          },
+        });
+
+        setGlitchControl({ startGlitch, stopGlitch });
+
+        startGlitch();
+
+        setTimeout(() => {
+          stopGlitch();
+        }, 8000);
+      }, 4000);
+
+      return () => {
+        clearTimeout(glitchTimeout);
+      };
+    }, []);
+
+    useEffect(() => {
+      if (glitchControl) {
+        const glitchElement = document.querySelector('.glitch');
+        if (glitchElement) {
+          glitchElement.addEventListener(
+            'mouseenter',
+            glitchControl.startGlitch
+          );
+          glitchElement.addEventListener(
+            'mouseleave',
+            glitchControl.stopGlitch
+          );
+
+          return () => {
+            glitchElement.removeEventListener(
+              'mouseenter',
+              glitchControl.startGlitch
+            );
+            glitchElement.removeEventListener(
+              'mouseleave',
+              glitchControl.stopGlitch
+            );
+          };
+        }
+      }
+    }, [glitchControl]);
+
+    return (
+      <div>
+        {/* Your glitch element */}
+        <div className='glitch'></div>
+      </div>
+    );
+  };
+
   useEffect(() => {
-    setTimeout(() => {
-      PowerGlitch.glitch('.glitch');
-    }, 28000);
     anime({
       targets: '.animate-fade-up',
       translateY: [50, 0],
@@ -33,34 +96,34 @@ export default function Home() {
       opacity: [0, 1],
       duration: 1000,
       easing: 'easeInOutCubic',
-      delay: 10000,
+      delay: 6000,
     });
 
     anime({
       targets: '.black-fade',
       opacity: [0, 1],
       duration: 1,
-      delay: 25000,
+      delay: 15000,
     });
 
     anime({
       targets: '.intro-fade',
       opacity: [0, 1],
       duration: 1,
-      delay: 28000,
+      delay: 18000,
     });
     anime({
       targets: '.name-fade',
       opacity: [0, 1],
       duration: 1,
-      delay: 29000,
+      delay: 19000,
     });
 
     anime({
       targets: '.cat-fade',
       opacity: [0, 1],
       duration: 1000,
-      delay: 30000,
+      delay: 20000,
     });
 
     setTimeout(() => {
@@ -70,7 +133,7 @@ export default function Home() {
         backgroundColor: ['#000000', '#ffffff'],
       });
       document.body.style.overflow = 'hidden'; // Hide the scrollbar after black-fade
-    }, 25000);
+    }, 15000);
   }, []);
 
   return (
@@ -113,16 +176,19 @@ export default function Home() {
               This is the website of
             </h1>
             <br></br>
-            <h1
-              className='name-fade glitch whitespace-nowrap text-center text-6xl text-white md:text-6xl lg:text-8xl xl:text-9xl'
-              style={{
-                fontFamily: 'Cynatar',
-                textShadow:
-                  '2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000',
-              }}
-            >
-              Evan Koumarelas
-            </h1>
+            <div>
+              <h1
+                className='glitch name-fade whitespace-nowrap text-center text-6xl text-white md:text-6xl lg:text-8xl xl:text-9xl'
+                style={{
+                  fontFamily: 'Cynatar',
+                  textShadow:
+                    '2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000',
+                }}
+              >
+                Evan Koumarelas
+              </h1>
+              <GlitchComponent />
+            </div>
           </div>
           <div></div>
           <div className='cat-fade'>
@@ -184,9 +250,7 @@ export default function Home() {
                   that may seem repetitive and mundane. The process of debugging
                   code can also be frustrating and time-consuming, leading to a
                   feeling of being stuck in a never-ending loop of fixing
-                  errors. However, I might be able to do something idk<br></br>
-                  <br></br>
-                  <br></br>
+                  errors. However, I might be able to do something idk
                 </p>
               </div>
             </div>

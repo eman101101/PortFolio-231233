@@ -75,7 +75,7 @@ const Music = () => {
             >
               Tidal
             </Link>{' '}
-            where I have a couple of playlist. Here are some of the albums I've
+            where I have a couple of playlists. Here are some of the albums I've
             been listening to lately:
             <Image
               width={1000}

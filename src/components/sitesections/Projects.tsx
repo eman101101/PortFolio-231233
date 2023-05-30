@@ -81,7 +81,7 @@ const MyModal = () => {
             "portfolio" thing, and super minimalistic websites that are boring
             to look at. The project was a lot of fun to build, I learned a lot
             about how Next.js works as well as different javascript animation
-            library.
+            library's.
             <Image
               width={1200}
               height={800}
@@ -113,7 +113,7 @@ const MyModal = () => {
             under-represented groups.
             <br></br>
             <br></br>I've created a Breath of a Wild themed encyclopedia, a Java
-            and Python project as well as a mock e-commerence site. Links to my
+            game, Python program, and a mock e-commerence site. Links to my
             projects are in the Github, Check them out if you want to learn some
             digital skills!
             <Image

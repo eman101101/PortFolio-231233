@@ -77,6 +77,24 @@ const MyModal = () => {
             to see all the code for the projects. &#40; my code's clean I swear
             &#41;
             <br></br>
+            <br></br>Inspired by workout guides online, I created a website for
+            a swimming guide that would be an easy way to learn how to swim, as
+            well as teach swimming skills. The website was built using Nextra,
+            the Next.js static site generator. Check it out here! -{' '}
+            <Link
+              href='https://learnswimming.ca/'
+              target='_blank'
+              css={{ lineHeight: '1' }}
+            >
+              learnswimming.ca
+            </Link>
+            <Image
+              width={1200}
+              height={800}
+              src='/images/learnswimming.png'
+              alt='Default Image'
+            />
+            <br></br>
             <br></br>I wanted to create a website that made fun of the whole
             "portfolio" thing, and super minimalistic websites that are boring
             to look at. The project was a lot of fun to build, I learned a lot

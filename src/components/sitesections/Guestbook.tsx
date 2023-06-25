@@ -75,8 +75,7 @@ const Guestbook = () => {
               lineHeight: '1',
             }}
           >
-            A guestbook I made as a test, only works locally if you want to send
-            yourself some messages lol{' '}
+            A guestbook I made for the site, Sign Below!{' '}
           </Text>
           <div className='container mx-auto px-4 py-12'>
             <GuestbookForm onAdd={handleAddEntry} />

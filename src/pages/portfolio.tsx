@@ -35,7 +35,7 @@ export default function Portfolio() {
       <div></div>
       <div>
         <h1
-          className='intro-fade whitespace-nowrap text-center text-2xl text-white md:text-2xl lg:text-3xl xl:text-4xl'
+          className='intro-fade text-1xl whitespace-nowrap text-center text-white md:text-2xl lg:text-3xl xl:text-4xl'
           style={{
             fontFamily: 'Major',
             textShadow:
@@ -46,7 +46,7 @@ export default function Portfolio() {
         </h1>
         <br></br>
         <h1
-          className='name-fade glitch whitespace-nowrap text-center text-7xl text-white md:text-7xl lg:text-8xl xl:text-9xl'
+          className='name-fade glitch whitespace-nowrap text-center text-6xl text-white md:text-7xl lg:text-8xl xl:text-9xl'
           style={{
             fontFamily: 'Cynatar',
             textShadow:

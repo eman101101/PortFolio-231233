@@ -166,7 +166,7 @@ export default function Home() {
           <div></div>
           <div>
             <h1
-              className='intro-fade whitespace-nowrap text-center text-2xl text-white md:text-2xl lg:text-3xl xl:text-4xl'
+              className='intro-fade text-1xl md:text-1xl whitespace-nowrap text-center text-white lg:text-3xl xl:text-4xl'
               style={{
                 fontFamily: 'Major',
                 textShadow:
@@ -178,7 +178,7 @@ export default function Home() {
             <br></br>
             <div>
               <h1
-                className='glitch name-fade whitespace-nowrap text-center text-6xl text-white md:text-6xl lg:text-8xl xl:text-9xl'
+                className='glitch name-fade whitespace-nowrap text-center text-5xl text-white md:text-5xl lg:text-8xl xl:text-9xl'
                 style={{
                   fontFamily: 'Cynatar',
                   textShadow:

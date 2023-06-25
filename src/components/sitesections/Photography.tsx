@@ -13,7 +13,7 @@ const MyModal = () => {
         css={{
           background: 'transparent',
           color: 'white',
-          fontSize: '$5xl',
+          fontSize: '$4xl',
           fontWeight: '$bo',
           fontFamily: 'Major',
           lineHeight: '1',

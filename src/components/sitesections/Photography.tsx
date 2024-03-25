@@ -52,7 +52,7 @@ const MyModal = () => {
               wordSpacing: '0.2em',
             }}
           >
-            Photography
+            Photos
           </Text>
         </Modal.Header>
         <Modal.Body>

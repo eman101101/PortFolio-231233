@@ -13,7 +13,7 @@ const MyModal = () => {
         css={{
           background: 'transparent',
           color: 'white',
-          fontSize: '$4xl',
+          fontSize: '$5xl',
           fontWeight: '$bo',
           fontFamily: 'Major',
           lineHeight: '1',
@@ -21,7 +21,7 @@ const MyModal = () => {
             '2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000',
         }}
       >
-        Photography
+        Photos
       </Button>
       <Modal
         scroll

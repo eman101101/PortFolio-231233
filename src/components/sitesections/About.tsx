@@ -72,12 +72,11 @@ const About = () => {
               src='/images/evan.png'
               alt='Default Image'
             />
-            Hey there! I'm Evan Koumarelas, 25 year old looking to get into webdev, trying to
+            Hey there! I'm Evan Koumarelas, 26 year old looking to get into webdev, trying to
             make something unique. When I'm not staring at a screen I'm rock
             climbing, taking photo's, or traveling. Unfortunately all of these
-            things cost money, if you're looking for an intern or junior dev, I
-            hope this site can show you what I can do. I'm currently getting
-            used to React and Next.js, but I'm open to any challenge.<br></br>
+            things cost money, if you're looking for a dev, I
+            hope this site can show you what I can do. I'm currently learning Nuxt and GO and I'm open to any challenge.<br></br>
             <br></br>
           </Text>
         </Modal.Body>

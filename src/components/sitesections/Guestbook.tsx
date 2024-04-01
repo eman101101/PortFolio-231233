@@ -17,40 +17,40 @@ const Guestbook = () => {
   };
 
   useEffect(() => {
-    if (chattableRef.current) {
+    if (chattableRef.current && chattableRef.current.contentWindow) {
       chattableRef.current.contentWindow.postMessage(`
         .msgWrapper {
-
+  
         }
         .allMessages {
-
+  
         }
         .senderInfo {
           font-weight: bold;
         }
         .sent {
-
+  
         }
         .recieved {
-
+  
         }
         .msgBody {
-
+  
         }
         #background {
-
+  
         }
         #input {
-
+  
         }
         #settings {
-
+  
         }
         .mod:before {
-
+  
         }
         .owner:before {
-
+  
         }
       `, '*');
     }

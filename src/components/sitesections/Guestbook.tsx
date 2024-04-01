@@ -1,11 +1,11 @@
 import { Button, Modal, Text, useModal } from '@nextui-org/react';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 
 const Guestbook = () => {
   const { setVisible, bindings } = useModal();
   const [entries, setEntries] = useState<Entry[]>([]);
-  const chattableRef = useRef(null);
+  const chattableRef = React.useRef<HTMLIFrameElement>(null);
 
   interface Entry {
     name: string;

@@ -1,6 +1,5 @@
 'use client';
 import { Button, Modal, Text, useModal } from '@nextui-org/react';
-import { Image, Link } from '@nextui-org/react';
 
 const Music = () => {
   const { setVisible, bindings } = useModal();
@@ -66,23 +65,37 @@ const Music = () => {
               lineHeight: '1',
             }}
           >
-            Haven't actually made any music, just a bedroom DJ for now.
-            Regardless check out my soundcl- I mean my{' '}
-            <Link
-              href='https://tidal.com/browse/user/190851610'
-              target='_blank'
-              css={{ lineHeight: '1' }}
+            I've been making music on ableton and feel like I'm getting to the
+            point where it's not terrible! Here are I couple songs I've made:
+            Firstly a Mix of several songs from ZUN (game developer) and some
+            songs from a techno album that I'm working on. Need to work on
+            Mixing / Mastering / Arrangement / actually making good music, but
+            I'm getting there!
+            <div
+              style={{
+                marginTop: '100px',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '20px',
+              }}
             >
-              Tidal
-            </Link>{' '}
-            where I have a couple of playlists. Here are some of the albums I've
-            been listening to lately:
-            <Image
-              width={1000}
-              height={700}
-              src='/images/albums.png'
-              alt='Default Image'
-            />
+              <h2>ZUN Track</h2>
+              <audio controls style={{ width: '80%' }}>
+                <source src='/audio/zuntrack.mp3' type='audio/mpeg' />
+                Your browser does not support the audio element.
+              </audio>
+              <h2>To Deface This Ancient Art</h2>
+              <audio controls style={{ width: '80%' }}>
+                <source src='/audio/todeface.mp3' type='audio/mpeg' />
+                Your browser does not support the audio element.
+              </audio>
+              <h2>Bot Behaviour</h2>
+              <audio controls style={{ width: '80%' }}>
+                <source src='/audio/botbehaviour.mp3' type='audio/mpeg' />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
           </Text>
         </Modal.Body>
         <Modal.Footer>

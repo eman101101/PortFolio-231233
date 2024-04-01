@@ -66,8 +66,7 @@ const MyModal = () => {
               lineHeight: '1',
             }}
           >
-            I've always really loved street Photography with how it captures the
-            essence of a moment, but recently I've been getting into more
+            I've always really loved street Photography, but recently I've been getting into more
             landscape and nature photography. Here are some of my favorites, the
             rest can be found on my Flickr.{' '}
             <Link

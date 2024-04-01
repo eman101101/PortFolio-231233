@@ -76,7 +76,7 @@ const About = () => {
             make something unique. When I'm not staring at a screen I'm rock
             climbing, taking photo's, or traveling. Unfortunately all of these
             things cost money, if you're looking for a dev, I
-            hope this site can show you what I can do. I'm currently learning Vue / GO and I'm open to any challenge.<br></br>
+            hope this site can show you what I can do. I'm currently learning Vue / GO and I'm open to any challenge. Background for the site was made by He.riumu<br></br>
             <br></br>
           </Text>
         </Modal.Body>

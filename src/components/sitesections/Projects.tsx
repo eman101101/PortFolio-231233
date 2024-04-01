@@ -74,6 +74,12 @@ const MyModal = () => {
             >
               Github
             </Link>{' '}
+            <Image
+              width={1200}
+              height={800}
+              src='/images/calisite.png'
+              alt='Default Image'
+            />
             to see all the code for the projects. &#40; my code's clean I swear
             &#41;
             <br></br>

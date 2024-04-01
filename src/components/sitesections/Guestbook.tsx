@@ -55,7 +55,6 @@ const Guestbook = () => {
       `, '*');
     }
   }, []);
-
   return (
     <div>
       <Button
@@ -120,8 +119,7 @@ const Guestbook = () => {
             Make sure to sign my guestbook / checkout some of the sites on the side! Powered by Chattable.
             </Text>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', background: 'black', height: '100vh' }}>
-  <iframe src='https://chattable.neocities.org/embed?chat=30819191' ref={chattableRef} frameborder='none' style={{ background: 'grey', width: '80%', height: '80vh' }}></iframe>
-  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px' }}>  <img src="https://bin-web.neocities.org/buttons/kirby.gif" title="Chattable" alt="Chattable" />
+        <iframe src='https://chattable.neocities.org/embed?chat=30819191' ref={chattableRef} frameBorder='0' style={{ background: 'grey', width: '80%', height: '80vh' }}></iframe>  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px' }}>  <img src="https://bin-web.neocities.org/buttons/kirby.gif" title="Chattable" alt="Chattable" />
   <img src="https://bin-web.neocities.org/buttons/no-twitter.gif" title="Chattable" alt="Chattable" /><a href="https://chattable.neocities.org/" target="_blank"><img src="https://chattable.neocities.org/chattable-alt.gif" title="Chattable" alt="Chattable" /></a>
 <a href="https://www.neocities.org/" target="_blank"><img src="https://sugarforbrains.neocities.org/img/88x31/neo.png" title="Chattable" alt="Chattable" /></a>
 <a href="https://chattable.neocities.org/" target="_blank"><img src="https://lawoftalos.neocities.org/img/puterbutton.gif" title="Chattable" alt="Chattable" /></a>

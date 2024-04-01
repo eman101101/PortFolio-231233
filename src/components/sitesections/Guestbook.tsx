@@ -116,7 +116,7 @@ const Guestbook = () => {
               lineHeight: '1',
             }}
           >
-            Make sure to sign my guestbook / checkout some of the sites on the side! Powered by Chattable.
+            Make sure to sign my guestbook / check out some of the sites on the side! Powered by Chattable.
             </Text>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', background: 'black', height: '100vh' }}>
         <iframe src='https://chattable.neocities.org/embed?chat=30819191' ref={chattableRef} frameBorder='0' style={{ background: 'grey', width: '80%', height: '80vh' }}></iframe>  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px' }}>  <img src="https://bin-web.neocities.org/buttons/kirby.gif" title="Chattable" alt="Chattable" />

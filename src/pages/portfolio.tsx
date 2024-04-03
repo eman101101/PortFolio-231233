@@ -42,7 +42,7 @@ export default function Portfolio() {
               '2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000',
           }}
         >
-          This is the website of
+          This is the site of
         </h1>
         <br></br>
         <h1

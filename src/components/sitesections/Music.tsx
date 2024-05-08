@@ -65,12 +65,7 @@ const Music = () => {
               lineHeight: '1',
             }}
           >
-            I've been making music on ableton and feel like I'm getting to the
-            point where it's not terrible! Here are I couple songs I've made:
-            Firstly a Mix of several songs from ZUN (game developer) and some
-            songs from a techno album that I'm working on. Need to work on
-            Mixing / Mastering / Arrangement / actually making good music, but
-            I'm getting there!
+            I've been making a techo album called Destruction of Self. Just released my first track and you can listen to it below. Should be done in a couple months.
             <div
               style={{
                 marginTop: '100px',
@@ -80,19 +75,9 @@ const Music = () => {
                 gap: '20px',
               }}
             >
-              <h2>ZUN Track</h2>
-              <audio controls style={{ width: '80%' }}>
-                <source src='/audio/zuntrack.mp3' type='audio/mpeg' />
-                Your browser does not support the audio element.
-              </audio>
               <h2>To Deface This Ancient Art</h2>
               <audio controls style={{ width: '80%' }}>
                 <source src='/audio/todeface.mp3' type='audio/mpeg' />
-                Your browser does not support the audio element.
-              </audio>
-              <h2>Bot Behaviour</h2>
-              <audio controls style={{ width: '80%' }}>
-                <source src='/audio/botbehaviour.mp3' type='audio/mpeg' />
                 Your browser does not support the audio element.
               </audio>
             </div>

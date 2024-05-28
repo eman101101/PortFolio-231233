@@ -65,7 +65,7 @@ const Music = () => {
               lineHeight: '1',
             }}
           >
-            I've been making a techo album called Destruction of Self. Just released my first track and you can listen to it below. Should be done in a couple months.
+            I made an album called Destruction of Self.
             <div
               style={{
                 marginTop: '100px',
@@ -75,11 +75,7 @@ const Music = () => {
                 gap: '20px',
               }}
             >
-              <h2>To Deface This Ancient Art</h2>
-              <audio controls style={{ width: '80%' }}>
-                <source src='/audio/todeface.mp3' type='audio/mpeg' />
-                Your browser does not support the audio element.
-              </audio>
+<iframe style="border: 0; width: 700px; height: 440px;" src="https://bandcamp.com/EmbeddedPlayer/album=3932199859/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://e2dmusic.bandcamp.com/album/destruction-of-self">Destruction of Self by E2D</a></iframe>
             </div>
           </Text>
         </Modal.Body>

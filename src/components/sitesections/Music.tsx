@@ -75,7 +75,12 @@ const Music = () => {
                 gap: '20px',
               }}
             >
-<iframe style="border: 0; width: 700px; height: 440px;" src="https://bandcamp.com/EmbeddedPlayer/album=3932199859/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://e2dmusic.bandcamp.com/album/destruction-of-self">Destruction of Self by E2D</a></iframe>
+              <iframe 
+                style={{ border: 0, width: 700, height: 440 }} 
+                src="https://bandcamp.com/EmbeddedPlayer/album=3932199859/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" 
+                seamless>
+                <a href="https://e2dmusic.bandcamp.com/album/destruction-of-self">Destruction of Self by E2D</a>
+              </iframe>            
             </div>
           </Text>
         </Modal.Body>

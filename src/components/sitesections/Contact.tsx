@@ -73,7 +73,7 @@ const Contact = () => {
               target='_blank'
               css={{ lineHeight: '1' }}
             >
-              Linkden
+              Linkedin
             </Link>{' '}
             profile or my email{' '}
             <Link

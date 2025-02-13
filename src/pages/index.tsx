@@ -262,7 +262,7 @@ export default function Home() {
           style={{ borderTop: '1px solid black' }}
         >
           <p>Designed and developed by Evan Koumarelas</p>
-          <p>&copy; 2023 Evan Koumarelas. I will sue.</p>
+          <p>&copy; 2025 Evan Koumarelas. I will sue.</p>
         </footer>
       </main>
       {showFakeErrorScreen && (
